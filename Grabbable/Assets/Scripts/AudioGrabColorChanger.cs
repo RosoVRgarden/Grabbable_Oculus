@@ -3,8 +3,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 // XRBaseInteractable - OBJECT
 
-[RequireComponent(typeof(XRDirectInteractor))]
-
 	public class AudioGrabColorChanger : MonoBehaviour
 {
 	private XRBaseInteractable interactable = null;
