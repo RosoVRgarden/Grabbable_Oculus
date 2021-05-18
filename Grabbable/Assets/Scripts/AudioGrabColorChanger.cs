@@ -26,6 +26,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 	void Start(){
 		audioData = GetComponent<AudioSource>();
 		audioData.Play(0);
+		audioData.Pause();
 		Debug.Log("started");	
 	}
 
