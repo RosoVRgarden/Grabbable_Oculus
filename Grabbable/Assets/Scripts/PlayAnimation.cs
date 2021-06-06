@@ -10,8 +10,8 @@ public class PlayAnimation : MonoBehaviour
     {
         if (other.CompareTag("Player")) { 
 
-            myAnimationController.SetBool("sphere", true);
-            print("open door...");
+            myAnimationController.SetBool("jump", true);
+            print("jump...");
         }
     }
 
@@ -19,8 +19,8 @@ public class PlayAnimation : MonoBehaviour
     {
         if (other.CompareTag("Player")){
 
-            myAnimationController.SetBool("sphere", false);
-            print("close door...");
+            myAnimationController.SetBool("jump", false);
+            print("stop jumping...");
         }
     }
    
