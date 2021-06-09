@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34682435, g: 0.4143928, b: 0.49725872, a: 1}
+  m_IndirectSpecularColor: {r: 0.34675324, g: 0.41346934, b: 0.49672145, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,10 +139,10 @@ HingeJoint:
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 1.547525, y: 0.41599998, z: 1.8445818}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
     spring: 0
-    damper: 0
+    damper: 1
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -175,7 +175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1728462246}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 2098415651}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -207,7 +208,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_AttachTransform: {fileID: 1574611615}
+  m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
   m_MovementType: 0
   m_TrackPosition: 1
@@ -1414,12 +1415,6 @@ Transform:
   m_Father: {fileID: 2102345875}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1574611615 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6199973838152829796, guid: d676ea4becfb05c4986528869d595625,
-    type: 3}
-  m_PrefabInstance: {fileID: 1985071286}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1637880773
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +2598,12 @@ PrefabInstance:
 --- !u!4 &1985071287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6199973837475924900, guid: d676ea4becfb05c4986528869d595625,
+    type: 3}
+  m_PrefabInstance: {fileID: 1985071286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2098415651 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8934378145297452850, guid: d676ea4becfb05c4986528869d595625,
     type: 3}
   m_PrefabInstance: {fileID: 1985071286}
   m_PrefabAsset: {fileID: 0}
