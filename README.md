@@ -4,4 +4,4 @@ VR template for Oculus Quest that uses locomotion (device based), interactables 
 
 Unity 2019.4 with Interactive Toolkit
 
-Thanks to ValemVR for his excellent tutorials
+Thanks to ValemVR for his tutorials
