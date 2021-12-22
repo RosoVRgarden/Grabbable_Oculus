@@ -1,4 +1,4 @@
-# Grabbable
+# Grabbable_Oculus
 
 VR template for Oculus Quest that uses locomotion (device based), interactables (cabinet + hinges) and listeners (changes color / play sound). 
 
